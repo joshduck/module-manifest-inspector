@@ -1,0 +1,34 @@
+{
+  "0.client.js": [
+    {
+      "id": 3,
+      "name": "./src/d.js"
+    }
+  ],
+  "1.client.js": [
+    {
+      "id": 4,
+      "name": "./src/e.js"
+    }
+  ],
+  "client-only.index.js": [
+    {
+      "id": 5,
+      "name": "./src/client-only.js"
+    }
+  ],
+  "client.js": [
+    {
+      "id": 0,
+      "name": "./src/a.js"
+    },
+    {
+      "id": 1,
+      "name": "./src/b.js"
+    },
+    {
+      "id": 2,
+      "name": "./src/c.js"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "module-manifest-inspector",
+  "version": "0.1.0",
+  "description": "Consume manifest information about packaged modules.",
+  "main": "lib/index.js",
+  "author": "Josh Duck",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --ignore __tests__ --out-dir lib",
+    "start": "babel src --watch --ignore __tests__ --out-dir lib",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {}
+}
